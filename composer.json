@@ -18,9 +18,15 @@
             "providers": [
                 "Photos\\ImageServiceProvider"
             ],
-            "aliases": {}
+            "aliases": {
+                "Photo":  "Photos\\Facades\\Photo"
+            }
         }
     },
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php": ">=5.5.0",
+        "illuminate/support": ">=5.2.7",
+        "illuminate/session": ">=5.2.7"
+    }
 }
