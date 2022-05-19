@@ -19,7 +19,7 @@
                 "Photos\\ImageServiceProvider"
             ],
             "aliases": {
-                "Photo":  "Photos\\Facades\\Photo"
+                "Photo":  "Photos\\Facades\\Photos"
             }
         }
     },

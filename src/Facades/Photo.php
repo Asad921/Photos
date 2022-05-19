@@ -1,13 +1,13 @@
 <?php
 
-namespace Photo\Facades;
+namespace Photos\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class Photo extends Facade
+class Photos extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'photo';
+        return 'photos';
     }
 }
