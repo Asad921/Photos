@@ -16,8 +16,9 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Sjsolutionz\\Photos\\Src\\Providers\\ImageServiceProvider"
-            ]
+                "SjSolutionz\\Photos\\CalculatorServiceProvider"
+            ],
+            "aliases": {}
         }
     },
     "minimum-stability": "dev",
