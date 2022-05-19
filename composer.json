@@ -16,7 +16,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Sjsolutionz\\Photos\\ImageServiceProvider"
+                "Sjsolutionz\\Photos\\Providers\\ImageServiceProvider"
             ]
         }
     },
