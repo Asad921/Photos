@@ -1,0 +1,18 @@
+{
+    "name": "sjsolutionz/photos",
+    "description": "tis is an image package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sjsolutionz\\Photos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Asad921",
+            "email": "officiallasad.ali@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
