@@ -24,9 +24,5 @@
         }
     },
     "minimum-stability": "dev",
-    "require": {
-        "php": ">=5.5.0",
-        "illuminate/support": ">=5.2.7",
-        "illuminate/session": ">=5.2.7"
-    }
+    "require": {}
 }
