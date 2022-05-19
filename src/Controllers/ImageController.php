@@ -1,6 +1,6 @@
 <?php
 
-namespace Sjsolutionz\photos\Controllers;
+namespace Sjsolutionz\Photos;
 
 use Illuminate\Http\Request;
 

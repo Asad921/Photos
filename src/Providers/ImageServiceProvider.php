@@ -1,6 +1,6 @@
 <?php
 
-namespace Sjsolutionz\photos\Providers;
+namespace Sjsolutionz\Photos;
 
 use Illuminate\Support\ServiceProvider;
 

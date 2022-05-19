@@ -1,6 +1,6 @@
 <?php
 
-namespace Sjsolutionz\photos\Models;
+namespace Sjsolutionz\Photos;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
