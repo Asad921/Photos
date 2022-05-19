@@ -1,11 +1,11 @@
 <?php
 
-namespace Sjsolutionz\Photos;
+namespace Photos;
 
 use Illuminate\Http\Request;
 
 use App\Http\Controllers\Controller;
-use Image\photos\src\Models\Photo;
+use photos\src\Models\Photo;
 
 class ImageController extends Controller
 {

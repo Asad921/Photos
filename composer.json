@@ -4,7 +4,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Sjsolutionz\\Photos\\": "src/"
+            "Photos\\": "src/"
         }
     },
     "authors": [
@@ -16,7 +16,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "SjSolutionz\\Photos\\ImageServiceProvider"
+                "Photos\\ImageServiceProvider"
             ],
             "aliases": {}
         }
