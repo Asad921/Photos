@@ -1,11 +1,11 @@
 <?php
 
-namespace Sjsolutionz\Photos;
+namespace Photos;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Photo extends Model
+class Image extends Model
 {
     use HasFactory;
 }
