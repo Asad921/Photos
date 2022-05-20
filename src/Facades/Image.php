@@ -4,10 +4,10 @@ namespace Photos\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class Photos extends Facade
+class Image extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'photos';
+        return 'Photos';
     }
 }
