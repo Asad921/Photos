@@ -15,7 +15,7 @@ class ImageServiceProvider extends ServiceProvider
     {
         $this->app->make('Photos\ImageController');
         $this->app->bind('Photos',function() {
-            return new \Photos\Facades\Photos;
+            return new \Photos\Facades\Image;
          });
     }
 
