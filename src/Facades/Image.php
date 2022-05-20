@@ -15,7 +15,7 @@ class Image extends Facade
     protected static function upload($image, $folder, $parent_id, $parent_type)
     // 1: image, 2: folder-name, 3: model_id, 4: model-type
     {
-        if($request->hasfile('image')){
+        if($image){
             
             $path = $image->store('$folder', 'public');
             $photo = new File();
