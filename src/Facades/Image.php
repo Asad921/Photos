@@ -3,6 +3,8 @@
 namespace Photos\Facades;
 
 use Illuminate\Support\Facades\Facade;
+use photos\src\Models\Photo;
+use Auth;
 
 class Image extends Facade
 {
@@ -16,7 +18,7 @@ class Image extends Facade
         $photo->path = $path;
         $photo->parent_id = $parent_id;
         $photo->parent_type = $parent_type;
-        $photo->user_id = user()->id;
+        $photo->user_id = Auth::user()->id;
         $photo->save();
     }
 }
