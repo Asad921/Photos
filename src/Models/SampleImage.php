@@ -5,7 +5,7 @@ namespace Photos;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Image extends Model
+class SampleImage extends Model
 {
     use HasFactory;
 }
