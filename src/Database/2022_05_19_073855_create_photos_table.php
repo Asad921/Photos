@@ -13,7 +13,7 @@ class CreatePhotosTable extends Migration
      */
     public function up()
     {
-        Schema::create('samples', function (Blueprint $table) {
+        Schema::create('photos', function (Blueprint $table) {
             $table->id();
             $table->bigInteger("parent_id")->nullable();
             $table->string("parent_type")->nullable();
