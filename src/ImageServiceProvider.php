@@ -13,7 +13,7 @@ class ImageServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('src\ImageController');
+        $this->app->make('photos/src\ImageController');
         $this->app->bind('Photos',function() {
             return new \Photos\Facades\Photos;
          });
