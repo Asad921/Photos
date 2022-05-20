@@ -17,7 +17,7 @@ class Image extends Facade
     {
         if($image){
             
-            $path = $image->store('$folder', 'public');
+            $path = $image->store($folder , 'public');
             $photo = new File();
             $photo->path = $path;
             $photo->parent_id = $parent_id;
