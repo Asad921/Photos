@@ -5,13 +5,13 @@ namespace Photos;
 use Illuminate\Http\Request;
 
 use App\Http\Controllers\Controller;
-use photos\src\Models\Photo;
+use Photos\src\Models\Sample;
 
 class ImageController extends Controller
 {
     public function upload_image($path, $parent_id, $parent_type)
     {
-        $photo = new Photo();
+        $photo = new Sample();
         $photo->path = $path;
         $photo->parent_id = $parent_id;
         $photo->parent_type = $parent_type;
