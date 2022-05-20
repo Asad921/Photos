@@ -3,7 +3,7 @@
 namespace Photos\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use photos\src\Models\Photo;
+use Photos\Models\Photo;
 use Auth;
 
 class Image extends Facade
