@@ -5,7 +5,7 @@ namespace Photos;
 use Illuminate\Http\Request;
 
 use App\Http\Controllers\Controller;
-use Photos\src\Models\Sample;
+use src\Sample;
 
 class ImageController extends Controller
 {
