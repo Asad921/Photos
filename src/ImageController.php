@@ -9,7 +9,7 @@ use src\Sample;
 
 class ImageController extends Controller
 {
-    public function upload_image($path, $parent_id, $parent_type)
+    public function upload($path, $parent_id, $parent_type)
     {
         $photo = new Sample();
         $photo->path = $path;

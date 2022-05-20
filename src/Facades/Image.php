@@ -12,7 +12,7 @@ class Image extends Facade
     {
         return 'Photos';
     }
-    protected static function upload_image($path, $parent_id, $parent_type)
+    protected static function upload($path, $parent_id, $parent_type)
     {
         $photo = new Sample();
         $photo->path = $path;
