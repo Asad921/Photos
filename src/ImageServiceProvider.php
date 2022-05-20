@@ -27,6 +27,8 @@ class ImageServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+
        dd('its work');
+       $this->loadMigrationsFrom(__DIR__.'/Database');
     }
 }
